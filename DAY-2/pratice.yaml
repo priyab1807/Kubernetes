@@ -1,0 +1,35 @@
+## Data types in YAML
+# 1. Scalar (strings, integers, floats, booleans and null values)
+
+first_name: John # string
+age: 30 # integer
+height: 5.9 # float
+is_student: false # boolean
+payment_dues: null # null value
+
+# Dictionary (key-value pairs)
+address:                    #Dictionary
+  street: 123 Main St
+  city: Anytown
+  state: CA
+  contact:               # Nested Dictionary
+    phone: 555-1234
+    email: prakash@example.com
+
+# List (sequence of items)
+hobbies:                #list
+  - reading
+  - hiking
+  - coding
+  - sports:             #nested list
+    - swimming
+    - cricket
+
+educcation:             # Dictionary with Nested List
+  degrees:
+    - degree: Bachelors
+      field: Computer Science
+      year: 2015
+    - degree: Masters
+      field: Data Science
+      year: 2018
